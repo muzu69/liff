@@ -79,14 +79,14 @@
     }
 
     function getEnvironment() {
-    	//document.getElementByID("os").append(liff.getOS())
-    	//document.getElementByID("language").append(liff.getLanguage())
-	   	//document.getElementByID("version").append(liff.getVersion())
-	   	//document.getElementByID("accessToken").append(liff.getAccessToken())
+    	document.getElementByID("os").append(liff.getOS())
+    	document.getElementByID("language").append(liff.getLanguage())
+	   	document.getElementByID("version").append(liff.getVersion())
+	   	document.getElementByID("accessToken").append(liff.getAccessToken())
     }
 
     async function main() {
-      alert("LINE Developers xdDD Skooldio")
+      alert("LINE Developers xdDD2 Skooldio")
       await liff.init({ liffId: "1654188370-4jvWp39v" })
        getEnvironment()
        getUserProfile()
